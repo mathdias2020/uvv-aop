@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dicas - Aventuras pelo Mundo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Aventuras pelo Mundo</h1>
+        <div class="menu-toggle" onclick="toggleMenu()">☰</div> <!-- Ícone do menu hambúrguer -->
+        <nav>
+            <ul id="menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="destinos.html">Destinos</a></li>
+                <li><a href="dicas.html">Dicas</a></li>
+                <li><a href="aventuras.html">Aventuras</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <div class="imagem-destaque">
+            <img src="viagem.jpg" alt="Imagem de viagem organizada">
+            <p class="texto-destaque">Planeje sua viagem com dicas práticas e aproveite ao máximo!</p>
+        </div>
+
+        <h2>Dicas de Viagem</h2>
+        <p>Confira nossas dicas para tornar suas aventuras mais fáceis e agradáveis:</p>
+        <ul>
+            <li><strong>Planejamento:</strong> Faça reservas com antecedência e organize seu roteiro para aproveitar melhor.</li>
+            <li><strong>Bagagem:</strong> Leve somente o essencial e use malas organizadoras para facilitar o acesso aos itens.</li>
+            <li><strong>Documentos:</strong> Certifique-se de que passaportes e vistos estão válidos antes de viajar.</li>
+            <li><strong>Seguro de Viagem:</strong> Garanta proteção em casos de imprevistos durante sua jornada.</li>
+        </ul>
+        <p>Seguindo essas dicas, você pode minimizar contratempos e aproveitar ainda mais suas aventuras!</p>
+    </main>
+    <footer>
+        <p>&copy; 2024 Aventuras pelo Mundo - Todos os direitos reservados.</p>
+    </footer>
+    <script>
+        function toggleMenu() {
+            const menu = document.getElementById("menu");
+            menu.classList.toggle("active");
+        }
+    </script>
+    
+</body>
+</html>

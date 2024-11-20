@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aventuras - Aventuras pelo Mundo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Aventuras pelo Mundo</h1>
+        <div class="menu-toggle" onclick="toggleMenu()">☰</div> <!-- Ícone do menu hambúrguer -->
+        <nav>
+            <ul id="menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="destinos.html">Destinos</a></li>
+                <li><a href="dicas.html">Dicas</a></li>
+                <li><a href="aventuras.html">Aventuras</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <div class="imagem-destaque">
+            <img src="aventura.jpg" alt="Paisagem incrível de aventura">
+            <p class="texto-destaque">Descubra aventuras emocionantes e inesquecíveis ao redor do mundo!</p>
+        </div>
+
+        <h2>Aventuras Imperdíveis</h2>
+        <p>Descubra aventuras emocionantes para os mais corajosos viajantes!</p>
+        <ul>
+            <li><strong>Trilha Inca no Peru:</strong> Explore as ruínas de Machu Picchu.</li>
+            <li><strong>Safari na África:</strong> Veja animais selvagens em seu habitat natural.</li>
+            <li><strong>Escalada no Monte Everest:</strong> Uma aventura para os mais destemidos.</li>
+        </ul>
+        <p>Se você busca adrenalina e experiências inesquecíveis, essas aventuras são para você!</p>
+    </main>
+    <footer>
+        <p>&copy; 2024 Aventuras pelo Mundo - Todos os direitos reservados.</p>
+    </footer>
+    <script>
+        function toggleMenu() {
+            const menu = document.getElementById("menu");
+            menu.classList.toggle("active");
+        }
+    </script>
+    
+</body>
+</html>

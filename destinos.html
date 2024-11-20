@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Destinos - Aventuras pelo Mundo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Aventuras pelo Mundo</h1>
+        <div class="menu-toggle" onclick="toggleMenu()">☰</div> <!-- Ícone do menu hambúrguer -->
+        <nav>
+            <ul id="menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="destinos.html">Destinos</a></li>
+                <li><a href="dicas.html">Dicas</a></li>
+                <li><a href="aventuras.html">Aventuras</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </nav>
+    </header>    
+    <main>
+        <div class="imagem-destaque">
+            <img src="paris.jpg" alt="Imagem de destino paradisíaco">
+            <p class="texto-destaque">Explore os melhores destinos ao redor do mundo!</p>
+        </div>
+
+        <h2>Destinos de Viagem</h2>
+        <p>Descubra lugares incríveis que vão deixar você sem fôlego:</p>
+        <ul>
+            <li><strong>Paris:</strong> A cidade do amor e da cultura, com sua Torre Eiffel icônica.</li>
+            <li><strong>Maldivas:</strong> Paraísos tropicais com águas cristalinas e resorts luxuosos.</li>
+            <li><strong>Nova York:</strong> A cidade que nunca dorme, repleta de atrações e energia vibrante.</li>
+            <li><strong>Roma:</strong> História, arte e gastronomia na capital da Itália.</li>
+        </ul>
+        <p>Seja para relaxar ou explorar, esses destinos são ideais para todos os estilos de viajantes.</p>
+    </main>
+    <footer>
+        <p>&copy; 2024 Aventuras pelo Mundo - Todos os direitos reservados.</p>
+    </footer>
+    <script>
+        function toggleMenu() {
+            const menu = document.getElementById("menu");
+            menu.classList.toggle("active");
+        }
+    </script>
+    
+</body>
+</html>
