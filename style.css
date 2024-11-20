@@ -254,3 +254,41 @@ button:hover {
         font-size: 1em;
     }
 }
+/* Estilo para os Conteúdos em Destaque */
+.destaques {
+    display: flex;
+    flex-wrap: wrap; /* Permite ajuste automático em telas menores */
+    justify-content: center; /* Centraliza os itens horizontalmente */
+    align-items: center; /* Centraliza os itens verticalmente */
+    gap: 30px; /* Espaçamento entre os itens */
+    margin-top: 20px;
+}
+
+.conteudo-destaque {
+    text-align: center;
+    width: 350px; /* Define a largura fixa dos itens */
+    transition: transform 0.3s;
+}
+
+.conteudo-destaque:hover {
+    transform: scale(1.05); /* Efeito de zoom ao passar o mouse */
+}
+
+.conteudo-destaque img {
+    width: 100%; /* Ajusta a imagem ao contêiner */
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s;
+}
+
+.conteudo-destaque img:hover {
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2); /* Realce na imagem ao passar o mouse */
+}
+
+.conteudo-destaque p {
+    margin-top: 10px;
+    font-size: 0.9em; /* Reduz o tamanho da fonte para combinar com as imagens menores */
+    font-weight: bold;
+    color: #ffffff;
+}
