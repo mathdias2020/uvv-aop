@@ -8,8 +8,8 @@
 </head>
 <body>
     <header>
-        <h1>Aventuras pelo Mundo</h1>
-        <div class="menu-toggle" onclick="toggleMenu()">☰</div> <!-- Ícone do menu hambúrguer -->
+        <h1>Blog de Viagem</h1>
+        <div class="menu-toggle" onclick="toggleMenu()">☰</div> <!-- Menu Hambúrguer -->
         <nav>
             <ul id="menu">
                 <li><a href="index.html">Home</a></li>
@@ -19,7 +19,7 @@
                 <li><a href="contato.html">Contato</a></li>
             </ul>
         </nav>
-    </header>     
+    </header>
     <main>
         <div class="imagem-destaque">
             <img src="home.jpg" alt="Paisagem inspiradora para viajar">
@@ -32,21 +32,36 @@
         <section>
             <h3>Conteúdos em Destaque</h3>
             <div class="destaques">
-                <a href="destinos.html">Destinos de Viagem</a>
-                <a href="dicas.html">Dicas Essenciais para Viajar Melhor</a>
-                <a href="aventuras.html">Aventuras para Corajosos</a>
+                <div class="conteudo-destaque">
+                    <a href="destinos.html">
+                        <img src="paris.jpg" alt="Destinos de Viagem">
+                        <p>Destinos Incríveis pelo Mundo</p>
+                    </a>
+                </div>
+                <div class="conteudo-destaque">
+                    <a href="dicas.html">
+                        <img src="viagem.jpg" alt="Dicas de Viagem">
+                        <p>Dicas Essenciais para Viajar Melhor</p>
+                    </a>
+                </div>
+                <div class="conteudo-destaque">
+                    <a href="aventuras.html">
+                        <img src="aventura.jpg" alt="Aventuras">
+                        <p>Aventuras para Corajosos</p>
+                    </a>
+                </div>
             </div>
         </section>
     </main>
     <footer>
         <p>&copy; 2024 Blog de Viagem - Todos os direitos reservados.</p>
     </footer>
+
     <script>
         function toggleMenu() {
             const menu = document.getElementById("menu");
             menu.classList.toggle("active");
         }
     </script>
-    
 </body>
 </html>
